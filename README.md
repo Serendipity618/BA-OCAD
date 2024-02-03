@@ -1,1 +1,1 @@
-# BA_2_OCAD
+# BA-OCAD
