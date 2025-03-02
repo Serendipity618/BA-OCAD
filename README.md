@@ -90,12 +90,12 @@ If you use this repository, please cite our work:
 - Evaluating robustness under **real-world log datasets**.
 
 ## 🔗 Related Links
-- [🔗 Paper on ArXiv](https://arxiv.org/abs/2402.10283)
-- [📚 PAKDD 2024](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20)
+- [📄 Research Paper on arXiv](https://arxiv.org/abs/2402.10283)  
+- [📘 Published Paper in PAKDD 2024](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20)  
 
 ## 📩 Contact
 For questions or collaborations, feel free to reach out to **chenghe0618@outlook.com**.
 
 ---
-🛠️ **Maintained by:** He Cheng | 📅 **Last Updated:** 2024  
+🛠️ **Maintained by:** He Cheng | 📅 **Last Updated:** 2025  
 📌 *Made with ❤️ for Anomaly Detection Research*  
