@@ -94,7 +94,7 @@ If you use this repository, please cite our work:
 - [📚 PAKDD 2024](https://link.springer.com/chapter/10.1007/978-981-97-2259-4_20)
 
 ## 📩 Contact
-For questions or collaborations, feel free to reach out to **[He Cheng](mailto:your-email@example.com)**.
+For questions or collaborations, feel free to reach out to **[He Cheng](chenghe0618@outlook.com)**.
 
 ---
 🛠️ **Maintained by:** He Cheng | 📅 **Last Updated:** 2024  
