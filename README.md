@@ -36,24 +36,12 @@ Download and place the structured log dataset (`BGL.log_structured_v1.csv`) insi
 ### 3️⃣ Run the Training Pipeline
 Execute the training script with:
 ```bash
-python src/main.py --data_path ./data/BGL.log_structured_v1.csv --epochs 50 --lr 0.001
+python src/main.py --data_path ../data/BGL.log_structured_v1.csv --epochs 50 --lr 0.001
 ```
 You can modify hyperparameters such as:
 - `--batch_size_train`: Training batch size
 - `--epochs`: Number of training epochs
 - `--lr`: Learning rate
-
-### 4️⃣ Evaluate Model Performance
-After training, evaluate the model:
-```bash
-python src/main.py --data_path ./data/BGL.log_structured_v1.csv --evaluate
-```
-
-### 5️⃣ Attack Success Rate (ASR) Analysis
-To analyze the **effectiveness of the backdoor attack**:
-```bash
-python src/main.py --data_path ./data/BGL.log_structured_v1.csv --evaluate_asr
-```
 
 ## 📊 Key Components
 
