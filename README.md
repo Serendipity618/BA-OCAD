@@ -10,13 +10,13 @@ This repository implements a **backdoor attack** against **one-class sequential 
 ## 📂 Repository Structure
 ```
 ├── data
-│   ├── BGL.log_structured_v1.csv   # Structured log dataset
+│   ├── BGL.log_structured_v1.csv     # Structured log dataset
 ├── src
-│   ├── dataloader.py                # Defines LogDataset and DataLoader setup
-│   ├── main.py                      # Main script for model training and evaluation
-│   ├── model.py                     # LSTM-based anomaly detection model and mutual information estimator
+│   ├── dataloader.py                 # Defines LogDataset and DataLoader setup
+│   ├── main.py                       # Main script for model training and evaluation
+│   ├── model.py                      # LSTM-based anomaly detection model and mutual information estimator
 │   ├── preprecessing.py              # Data preprocessing, encoding, and backdoor injection
-│   ├── trainer.py                   # Model training and evaluation logic
+│   ├── trainer.py                    # Model training and evaluation logic
 │   ├── utils.py                      # Utility functions (e.g., seed setup)
 ├── requirements.txt                  # Required dependencies
 ├── README.md                         # Project documentation
