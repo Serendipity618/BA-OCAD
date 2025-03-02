@@ -2,7 +2,7 @@ import torch
 import argparse
 from torch import optim
 from preprecessing import LogDataProcessor
-from src.dataloader import LogDataLoader
+from dataloader import LogDataLoader
 from model import ADModel, Mine
 from trainer import Trainer
 from utils import setup_seed
@@ -13,7 +13,7 @@ from utils import setup_seed
 parser = argparse.ArgumentParser(description="Backdoor Attack Against One-Class Sequential Anomaly Detection Models.")
 
 # Dataset and Environment Configuration
-parser.add_argument('--data_path', type=str, default='./data/BGL.log_structured_v1.csv', help='Path to the dataset')
+parser.add_argument('--data_path', type=str, default='../data/BGL.log_structured_v1.csv', help='Path to the dataset')
 parser.add_argument('--seed', type=int, default=2023, help='Random seed for reproducibility')
 
 # Training Hyperparameters
